@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onDragDetected="#addEmp" prefHeight="502.0" prefWidth="666.0" style="-fx-background-color: #E6F3F4;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.adminmenucontroller">
+   <children>
+      <Button layoutX="208.0" layoutY="81.0" mnemonicParsing="false" onAction="#addEmp" prefHeight="26.0" prefWidth="262.0" style="-fx-background-color: white;" text="Add New Employee" textFill="#131663" />
+      <Button layoutX="208.0" layoutY="133.0" mnemonicParsing="false" onAction="#increase" prefHeight="26.0" prefWidth="262.0" style="-fx-background-color: white;" text="Increase Salary" textFill="#0c0736" />
+      <Button layoutX="210.0" layoutY="182.0" mnemonicParsing="false" onAction="#salary" prefHeight="26.0" prefWidth="262.0" style="-fx-background-color: white;" text="View Monthly Salary" textFill="#050438" />
+      <Button layoutX="208.0" layoutY="232.0" mnemonicParsing="false" onAction="#emp" prefHeight="26.0" prefWidth="262.0" style="-fx-background-color: white;" text="View Details of An Employee" textFill="#160b3e" />
+      <Button layoutX="208.0" layoutY="279.0" mnemonicParsing="false" onAction="#allEmp" prefHeight="26.0" prefWidth="262.0" style="-fx-background-color: white;" text="View Details of All Employee" textFill="#170843" />
+      <Button layoutX="210.0" layoutY="330.0" mnemonicParsing="false" onAction="#record" prefHeight="26.0" prefWidth="262.0" style="-fx-background-color: white;" text="View Monthly Record " textFill="#0a052e" />
+      <Button layoutX="210.0" layoutY="376.0" mnemonicParsing="false" onAction="#SwtichRole" prefHeight="26.0" prefWidth="262.0" style="-fx-background-color: white;" text="Switch Role" textFill="#100a46" />
+      <Button layoutX="320.0" layoutY="436.0" mnemonicParsing="false" onAction="#Exit" style="-fx-background-color: #1b2563;" text="EXIT" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <TextField alignment="CENTER" layoutX="2.0" prefHeight="40.0" prefWidth="660.0" style="-fx-border-radius: 0;" text="Employee Management System">
+         <font>
+            <Font name="Tw Cen MT" size="18.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
