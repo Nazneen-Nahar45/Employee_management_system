@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="436.0" prefWidth="664.0" style="-fx-background-color: #E6F6F6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AllEmpController">
+   <children>
+      <Button layoutX="279.0" layoutY="63.0" mnemonicParsing="false" onAction="#Display" prefHeight="26.0" prefWidth="106.0" style="-fx-background-color: #222355;" text="Display All" textFill="#f4f1f1" />
+      <Button layoutX="309.0" layoutY="378.0" mnemonicParsing="false" onAction="#Exit" prefHeight="26.0" prefWidth="45.0" style="-fx-background-color: #222533;" text="EXIT" textFill="#f2efef" />
+      <TextArea fx:id="allempdetailarea" layoutX="55.0" layoutY="118.0" prefHeight="237.0" prefWidth="554.0" />
+      <TextField alignment="CENTER" layoutX="2.0" prefHeight="40.0" prefWidth="660.0" style="-fx-border-radius: 0;" text="Employee Management System">
+         <font>
+            <Font name="Tw Cen MT" size="18.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
